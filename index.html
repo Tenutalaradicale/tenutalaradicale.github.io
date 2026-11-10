@@ -130,7 +130,7 @@ footer p+p{margin-top:4px}
 <script>
 (function(){
 "use strict";
-var HOST={name:"Mattia",tel:"+39 345 983 8543",wa:"393459838543",mail:"tenutalaradicale@gmail.com",ig:"tenutalaradicale"};
+var HOST={name:"Mattia",tel:"+39 345 983 8543",wa:"393459838543",mail:"tenutalaradicale@gmail.com",ig:""};
 var G="https://maps.app.goo.gl/";
 var MAP_HOME=G+"3eqXJcuJQMWH48LC9";
 function q(s){return "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(s)}
@@ -370,7 +370,7 @@ V.contatti=function(){
   '<div class="stack" style="margin-top:14px"><a class="btn fill wide" href="https://wa.me/'+HOST.wa+'" target="_blank" rel="noopener">'+ic("chat")+'WhatsApp · '+HOST.tel+'</a>'+
   '<a class="btn wide" href="'+tel(HOST.tel)+'">'+ic("phone")+(it?"Telefono":"Phone")+' · '+HOST.tel+'</a>'+
   '<a class="btn wide" href="mailto:'+HOST.mail+'">'+ic("mail")+HOST.mail+'</a>'+
-  '<a class="btn wide" href="https://www.instagram.com/'+HOST.ig+'/" target="_blank" rel="noopener">Instagram · @'+HOST.ig+'</a></div></div>';
+  (HOST.ig?'<a class="btn wide" href="https://www.instagram.com/'+HOST.ig+'/" target="_blank" rel="noopener">Instagram · @'+HOST.ig+'</a>':'')+'</div></div>';
 };
 V.emergenza=function(){
   var it=lang==="it";
