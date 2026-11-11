@@ -1,6 +1,6 @@
 // Rende la guida consultabile anche con poca rete: risponde dalla copia salvata
 // e la aggiorna in background appena la connessione lo consente.
-const CACHE = "la-radicale-v3";
+const CACHE = "la-radicale-v4";
 const FILES = ["./", "index.html", "img/panorama.jpg", "img/casa.jpg", "img/soggiorno.jpg",
   "img/camera.jpg", "img/cucina.jpg", "img/veranda.jpg"];
 
